@@ -43,20 +43,34 @@ git status
   nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-## git log -oneline
+## git log -oneline (comprobar el historial de commits)
 ```bash
 git log --oneline
   7abeebb (HEAD -> feature/comandos-basicos, origin/main, origin/HEAD, main) Update README.md
   6a9d91d Initial commit
 ```
 
-## git add
+## git add (añadir ficheros al staging)
 ```bash
 git add .
-
 ```
 
+## git commit (registrar los cambios en el historial del repo)
+```bash
+git commit -m "Se añade este fichero al repo"
+  [feature/comandos-basicos f61a25f] Se añade este fichero al repo
+   1 file changed, 62 insertions(+)
+   create mode 100644 comandos.md
+```
+
+## git fetch origin (sincronizar con el repo remoto, descarga actualizaciones)
+```bash
+git fetch origin
+```
+
+## git push --force origin main (carga el stage en el repo remoto y modifica historial)
+```bash
+git push --force origin main
 
 
-
-
+```
