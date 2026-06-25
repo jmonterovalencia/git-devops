@@ -68,9 +68,10 @@ git commit -m "Se añade este fichero al repo"
 git fetch origin
 ```
 
-## git push --force origin main (carga el stage en el repo remoto y modifica historial)
+## git push (carga el stage en el repo remoto y modifica historial)
 ```bash
-git push --force origin main
+git push --set-upstream origin feature/comandos-basicos
 
 
 ```
+
