@@ -12,10 +12,11 @@ git log --oneline
 ```bash
 git log --oneline
 
-
-
-
-
-
-
+a6f3cbf (HEAD -> feature/commits-practica, origin/feature/commits-practica) docs(commits-readme): Se añade nuevo código a los dos ficheros
+26625ad feat(commits.md): añadir nuevo fichero con historial de commits
+7abeebb (origin/main, origin/HEAD, main) Update README.md
+6a9d91d Initial commit
 ```
+
+
+
