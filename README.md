@@ -15,8 +15,7 @@ git version 2.51.1.windows.1
 ### 2. Git Config
 ```bash
 git config --list
-```
-PS C:\Users\j.montero.valencia\OneDrive - Avanade\Documentos\GitHub> git config --list
+
 diff.astextplain.textconv=astextplain
 filter.lfs.clean=git-lfs clean -- %f
 filter.lfs.smudge=git-lfs smudge -- %f
@@ -48,3 +47,8 @@ alias.co=checkout
 alias.br=branch
 alias.cm=commit
 PS C:\Users\j.montero.valencia\OneDrive - Avanade\Documentos\GitHub> 
+```
+
+
+
+
